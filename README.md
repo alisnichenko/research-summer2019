@@ -19,11 +19,27 @@ and topic modelling (Mallet in Java) to provide data models for professors from 
 More specifically, I was mainly working on Twitter API data, since the goal of the research was to find out patterns and interesting nuances about the usage of emojis in White Nationalist Communication on Twitter. This is why I took all of raw data (12+ GB of raw Twitter API .json files) that other researches in Canada collected on their servers.
 
 One of the examples of such file:
+
 <p align="center">
   <img src="https://github.com/alisnichenko/research-summer2019/blob/master/json-example1.JPG">
 </p>
 
 Or, a bit prettier than the previous one:
+
 <p align="center">
   <img src="https://github.com/alisnichenko/research-summer2019/blob/master/json-example2.jpg">
 </p>
+
+As you can see, there is a lot of emojis, so I wrote an ugly (but working) Python script, that goes through each hashtag (files with user data were separated by hashtag, i.e. ideological twitter movements, such as white supremacy, anti-white, etc). The script extracts all the emojis using regex, and then composes a .csv or .xlsx .json, depending on the need, table with most frequent emojis, separated by stance and ideology.
+
+<p align="center">
+  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/emoji-tweet-table.jpg">
+</p>
+
+Then I did this:
+
+<p align="center">
+  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/emoji-clouds.jpg">
+</p>
+
+And now I am doing network analysis. Yay.
