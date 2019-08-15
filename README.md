@@ -21,25 +21,25 @@ More specifically, I was mainly working on Twitter API data, since the goal of t
 One of the examples of such file:
 
 <p align="center">
-  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/json-example1.JPG">
+  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/json-example1.jpg">
 </p>
 
 Or, a bit prettier than the previous one:
 
 <p align="center">
-  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/json-example2.jpg">
+  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/json-example2.jpg">
 </p>
 
 As you can see, there is a lot of emojis, so I wrote an ugly (but working) Python script, that goes through each hashtag (files with user data were separated by hashtag, i.e. ideological twitter movements, such as white supremacy, anti-white, etc). The script extracts all the emojis using regex, and then composes a .csv or .xlsx .json, depending on the need, table with most frequent emojis, separated by stance and ideology.
 
 <p align="center">
-  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/emoji-json.jpg">
+  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/emoji-json.jpg">
 </p>
 
 Then I did this:
 
 <p align="center">
-  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/emoji-clouds.jpg">
+  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/emoji-clouds.jpg">
 </p>
 
 And now I am doing network analysis. Yay.
