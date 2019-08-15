@@ -33,7 +33,7 @@ Or, a bit prettier than the previous one:
 As you can see, there is a lot of emojis, so I wrote an ugly (but working) Python script, that goes through each hashtag (files with user data were separated by hashtag, i.e. ideological twitter movements, such as white supremacy, anti-white, etc). The script extracts all the emojis using regex, and then composes a .csv or .xlsx .json, depending on the need, table with most frequent emojis, separated by stance and ideology.
 
 <p align="center">
-  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/emoji-tweet-table.jpg">
+  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/emoji-json.jpg">
 </p>
 
 Then I did this:
