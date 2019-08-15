@@ -20,10 +20,10 @@ More specifically, I was mainly working on Twitter API data, since the goal of t
 
 One of the examples of such file:
 <p align="center">
-  <img src="https://github.com/alisnichenko/research-summer2019/json-example1.jpg">
+  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/json-example1.JPG">
 </p>
 
 Or, a bit prettier than the previous one:
 <p align="center">
-  <img src="https://github.com/alisnichenko/research-summer2019/json-example2.jpg">
+  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/json-example2.jpg">
 </p>
