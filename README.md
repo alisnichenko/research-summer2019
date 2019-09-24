@@ -1,11 +1,5 @@
 # research-summer2019
 
-It was the end of my freshman year. It was the end of Spring 2019, and I stumbled upon an opportunity to take part is Data Science research with Dr. Hagen Loni (https://lonihagen.wordpress.com/) at School of Information at USF. 
-
-<p align="center">
-  <img src="http://www.woodroffearchitects.com/uploads/2/2/3/6/22367934/402531.jpg">
-</p>
-
 Since it was my first research opportinity ever, I decided to try it out for May-Aug period during Summer 2019.
 
 Basically, my responsibilities and my activities included:
@@ -42,4 +36,16 @@ Then I did this:
   <img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/emoji-clouds.jpg">
 </p>
 
-And now I am doing network analysis. Yay.
+The next thing was my network analysis, which wasn't very successful due to the fact that I had a computer with Windows 7 installed on it.
+
+What I did with my previously parsed Twitter data, is that I took all the emojis from each tweet, and then composed a file of all permutations of the emojis across all tweets. The edge looked like this: ('🧕', '🤔', 1). The first and second are supposed to be the emojis considered, and the third is the number, which represented the weight of the edge (or frequency, in my case).
+
+The unicode characters and Windows fonts were not properly configured on that machine. Therefore, the screenshots of my emoji network are a bit ugly.
+
+<p align="center">
+  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/network-snippet1.jpg">
+  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/network-snippet2.jpg">
+  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/network-snippet3.jpg">
+</p>
+
+
