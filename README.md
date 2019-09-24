@@ -42,10 +42,12 @@ What I did with my previously parsed Twitter data, is that I took all the emojis
 
 The unicode characters and Windows fonts were not properly configured on that machine. Therefore, the screenshots of my emoji network are a bit ugly.
 
-<p align="center">
-  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/network-snippet1.png">
-  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/network-snippet2.png">
-  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/network-snippet3.png">
-</p>
+<table width="100%" border="0">
+  <tr>    
+  <td><img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/network-snippet1.png" alt="" align="left" /></td>
+  <td><img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/network-snippet2.png" alt="" align="center" /></td>
+  <td><img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/network-snippet3.png" alt="" align="right"/></td>
+  </tr>
+</table>
 
 
