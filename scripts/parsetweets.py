@@ -38,11 +38,6 @@ def find_emojis(text):
 # writing a list to a given file
 def write_list_to_csv_user(file_to_write, hashtag, screen_name, stance, name, description, tweet_date, tweet_id, tweet_fulltext):
         if len(tweet_fulltext) > 0:
-                # with open(file_to_write, 'a+', encoding="utf8") as file:
-                #         file.write(hashtag + ',' + screen_name + ',' + name_emoji + ',' + description_emoji + ',' + stance + ',')
-                #         for item in items:
-                #                 file.write(item)
-                #         file.write('\n')
                 with open(file_to_write, 'a+', newline='', encoding='utf-8') as csvfile:
                         tweetswriter = csv.writer(csvfile, delimiter='\t')
                         row = [hashtag, screen_name, stance, name, description, tweet_date, tweet_id, tweet_fulltext]
@@ -66,9 +61,6 @@ def save_dict_to_json(filename, dict_emoji):
 
 # extracting constant repeating values from the first line of .json
 # def extract_basic_val(user_file):
-        
-
-# ==============================================================
 
 rootdir = 'directory/is/unknown/and/unnecessary'
 dict_emoji = {
@@ -85,14 +77,8 @@ dict_emoji = {
         'whitesupremacy_Pro':'',
         'whitesupremacy_Anti':''
 }
-screen_name = ''
-tweet_id = ''
-tweet_date = ''
-name = ''
-description = ''
-screen_name = ''
+screen_name, tweet_id, tweet_date, name, description, screen_name, hashtag = '', '', '', '', '', '', ''
 stance = '-1'
-hashtag = ''
 counter = 0
 # walking through directories and subdirectories
 for subdir, dirs, files in os.walk(rootdir):
