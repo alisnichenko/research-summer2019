@@ -50,4 +50,6 @@ The unicode characters and Windows fonts were not properly configured on that ma
   </tr>
 </table>
 
+I later found out about the possible solution, which could be just one single `import mplcairo`, but it was the end of summer when I found this little trick.
+
 
