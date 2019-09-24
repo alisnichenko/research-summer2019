@@ -79,29 +79,13 @@ def draw_edge_graph(edge_list):
     # implementing the graph creation
       
 if __name__ == "__main__":
-    
-    # testing --------------------------------
     # Load Microsoft Segoe UI Color Emoji font
     # font_dir = 'C:\\windows\\Fonts\\seguiemj.ttf'
     # G = nx.Graph()
     # Add nodes and edges
     # G.add_weighted_edges_from([("😊", "😱", 2), ("😂", "😊", 10)])
-
-    # edge_dict = {}
-    # tweets = ['😊I am about to !!!😱 jump out of 😂 my pants 🇺🇸 #pants#pants @username tweet 😊 hehe.', '😂yaay😊']
-    # for each user for each row get the tweet ha
-    # for tweet in tweets:
-    #     emojis = find_emojis(tweet)
-    #     emoji_comb = combinations(emojis, 2)
-    #     for emoji_pair in list(emoji_comb):    
-    #         # edge_dict[emoji_pair] = list(emoji_comb).count(emoji_pair) + 1
-    #         if (emoji_pair in edge_dict): 
-    #             edge_dict[emoji_pair] += 1
-    #         else: 
-    #             edge_dict[emoji_pair] = 1
-    # creating edge list
-    # edge_list = create_edge_list(edge_dict)
-    # showing the graph itself
+    
+    # the file from which i imported my edges created earlier
     fname = "emoji-edges-mod.txt"
     edge_list = extract_edges(fname)
     draw_edge_graph(edge_list)
