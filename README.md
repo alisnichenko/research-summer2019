@@ -2,7 +2,7 @@
 
 Since it was my first research opportinity ever, I decided to try it out for May-Aug period during Summer 2019.
 
-Basically, my responsibilities and my activities included:
+Basically, what I did was:
 - Analyzed 12GB+ large datasets obtained from government websites, Twitter API, and other sources in JSON format using
 Python, R, and other tools for law and media related research publications, such as the one sent to 22nd ACM Conference
 on Computer-Supported Cooperative Work and Social Computing
@@ -43,9 +43,9 @@ What I did with my previously parsed Twitter data, is that I took all the emojis
 The unicode characters and Windows fonts were not properly configured on that machine. Therefore, the screenshots of my emoji network are a bit ugly.
 
 <p align="center">
-  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/network-snippet1.jpg">
-  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/network-snippet2.jpg">
-  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/network-snippet3.jpg">
+  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/network-snippet1.png">
+  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/network-snippet2.png">
+  <img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/network-snippet3.png">
 </p>
 
 
