@@ -1,4 +1,4 @@
-# research-summer2019
+# twitter-research-py
 
 Since it was my first research opportinity ever, I decided to try it out for May-Aug period during Summer 2019.
 
@@ -10,7 +10,7 @@ on Computer-Supported Cooperative Work and Social Computing
 and topic modelling (Mallet in Java) to provide data models for professors from universities in Canada and the US
 - Led a small group of researchers to guide through Python programming language and API structure for the research
 
-More specifically, I was mainly working on Twitter API data, since the goal of the research was to find out patterns and interesting nuances about the usage of emojis in White Nationalist Communication on Twitter. This is why I took all of raw data (12+ GB of raw Twitter API .json files) that other researches in Canada collected on their servers.
+More specifically, I was mainly working on Twitter API data, since the goal of the research was to find out patterns and interesting nuances about the usage of emojis in White Nationalist Communication on Twitter. This is why I took all of raw data (12+ GB of raw Twitter API raw dat) that other researches in Canada collected on their servers.
 
 One of the examples of such file:
 
@@ -30,17 +30,15 @@ As you can see, there is a lot of emojis, so I wrote an ugly (but working) Pytho
   <img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/emoji-json.jpg">
 </p>
 
-Then I did this:
+Then I created what was called "emoji clouds" for a better representation of frequency and usage of emojis. I tried to create my own Python package for this purpose, however, I ended up using existing software to speed up the process:
 
 <p align="center">
   <img src="https://github.com/alisnichenko/research-summer2019/blob/master/media/emoji-clouds.jpg">
 </p>
 
-The next thing was my network analysis, which wasn't very successful due to the fact that I had a computer with Windows 7 installed on it.
+Finally, I was intending to finish the project my creating emoji networks to represent the complex relationships between various twitter users. I took all the emojis from each tweet, and then composed a file of all permutations of the emojis across all tweets. For the graph to be somewhat successfull, I needed to have edges and weights to the edges for the graph. The edge looked like this: ('🧕', '🤔', 1). The first and second are supposed to be the emojis considered, and the third is the number, which represented the weight of the edge (or frequency, in my case).
 
-What I did with my previously parsed Twitter data, is that I took all the emojis from each tweet, and then composed a file of all permutations of the emojis across all tweets. The edge looked like this: ('🧕', '🤔', 1). The first and second are supposed to be the emojis considered, and the third is the number, which represented the weight of the edge (or frequency, in my case).
-
-The unicode characters and Windows fonts were not properly configured on that machine. Therefore, the screenshots of my emoji network are a bit ugly.
+The unicode characters and Windows fonts were not properly configured on that machine (I was doing it on a lab machine that had Windows 7 installed). Therefore, the screenshots of my emoji network are a bit ugly.
 
 <table width="100%" border="0">
   <tr>    
@@ -50,6 +48,6 @@ The unicode characters and Windows fonts were not properly configured on that ma
   </tr>
 </table>
 
-I later found out about the possible solution, which could be just one single `import mplcairo`, but it was the end of summer when I found this little trick.
+I later found out about the possible solution (to make it look somewhat acceptable and readable), which could be just one single `import mplcairo` and it would import specific fonts for the emojis to display properly with `matplotlib` on Windows 7, however it was the end of summer when I found this little trick.
 
 
