@@ -1,7 +1,7 @@
 # tweets-research-py
 
 ## Disclaimer
-I joined a data science lab my freshman year for 3 months over the summer. The following is just a brief showcase of what I have done and what I have worked with. My experience and my skills are on a completely different at the moment, and I probably wouldn't have done some of the things the way they are presented here.
+I joined a data science lab my freshman year for 3 months over the summer. The following is just a brief showcase of what I have done and what I have worked with. My experience and my skills are on a completely different level at the moment. Looking at it now, I would not approach the research question the way I did that summer.
 
 ## What I did
 - Analyzed 12GB+ large datasets obtained from government websites, Twitter API, and other sources in JSON format using
